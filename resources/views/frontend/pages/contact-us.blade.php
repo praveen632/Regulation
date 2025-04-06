@@ -31,7 +31,7 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 contact-heading">
 				<h2>Contact Us</h2>
-				<p>At WhizSeed, we're dedicated to fueling your entrepreneurial fire. Our services and expert guidance empower startups and entrepreneurs across India to build, grow, and prosper.</p>
+				<p>At Regulation, we're dedicated to fueling your entrepreneurial fire. Our services and expert guidance empower startups and entrepreneurs across India to build, grow, and prosper.</p>
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-5 col-md-5 col-sm-12 contact-heading-img">

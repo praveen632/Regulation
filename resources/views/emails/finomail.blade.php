@@ -199,7 +199,7 @@
                                        "
                                        ><strong
                                        >Thank you for showing interest in
-                                    Whizseed</strong
+                                       Regulation</strong
                                        ></span
                                        >
                                  </div>

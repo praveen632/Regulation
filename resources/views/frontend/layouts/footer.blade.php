@@ -93,13 +93,13 @@
           <div class="row">
             <div class="footer-item-list">
                   <img
-                    src="{{asset('frontend/assets/images1/footer-logo.png')}}"
+                    src="{{asset('frontend/assets/images/logo.jpeg')}}"
                     alt="logo"
                     class="pb-2" style="width: 160px;height: 70px;"
                   />
                 <!-- <p class="footer-item-list-whizseed">whizseed.com</p> -->
                 <p>
-                whizseed is one and only platform in India which is exclusively formed to support startups for their financial and legal matters. <a href="https://whizseed.com/about-us">Read More...</a>
+                Regulation is one and only platform in India which is exclusively formed to support startups for their financial and legal matters. <a href="https://whizseed.com/about-us">Read More...</a>
                 </p>
             </div>
           </div>
@@ -167,7 +167,7 @@
 <div class="footer-content">
   <div class="container-fluid pt-4">
     <div class="footer-content-main-div">
-      <h3 class="overview-company-h3">Elevate Your Business with WhizSeed</h3>
+      <h3 class="overview-company-h3">Elevate Your Business with Regulation</h3>
       <p>
       As a leading technology-driven legal services and advisory firm, we empower SMEs and entrepreneurs on their business journey. Our expert team covers business registration, legal compliance, tax filing, IPR registration, and more. With over 200 professionals, we've served 10,000+ satisfied customers, ensuring startup compliance with our country's legal and regulatory systems.
       </p>
@@ -176,7 +176,7 @@
       <p>In India, regulatory bodies like RBI, SEBI, and IRDAI hold the keys to licenses and registrations for banks, financial institutions, and insurance businesses. We simplify this process by connecting you with our legal professionals. We understand your needs, handle license or registration applications, liaise with authorities, and deliver the licenses you require.</p>
 
       <h3 class="overview-company-h3">Environmental Solutions</h3>
-      <p>WhizSeed offers a comprehensive range of services to address environmental challenges in business. Our seasoned environmental experts, with over a decade of experience, provide comprehensive solutions for environmental compliance and advisory, including battery waste management, plastic waste management, and e-waste management.</p>
+      <p>Regulation offers a comprehensive range of services to address environmental challenges in business. Our seasoned environmental experts, with over a decade of experience, provide comprehensive solutions for environmental compliance and advisory, including battery waste management, plastic waste management, and e-waste management.</p>
 
       <h3 class="overview-company-h3">Business Registration Expertise</h3>
       <p>We are renowned for facilitating business registration, whether it's as a private limited company, one-person company, Section 8 company, LLP, public company, or Nidhi company. Our consultancy services extend from business setup from scratch to ongoing compliance.</p>
@@ -185,7 +185,7 @@
       <p>Intellectual property protection is vital for modern businesses. Our team excels in IP registration services such as trademark registration, handling objections, managing assignments, copyright registration, and patent registration.</p>
 
       <h3 class="overview-company-h3">Simplifying Taxation</h3>
-      <p>WhizSeed is your all-in-one solution for tax-related needs. Our dedicated professionals assist with GST registration, professional tax registration, GST return filing, TDS return filing, income tax return filing, and secretarial audits. Your tax matters are in capable hands with WhizSeed.</p>
+      <p>Regulation is your all-in-one solution for tax-related needs. Our dedicated professionals assist with GST registration, professional tax registration, GST return filing, TDS return filing, income tax return filing, and secretarial audits. Your tax matters are in capable hands with .</p>
     </div>
   </div>
 </div>
@@ -202,7 +202,7 @@
           By continuing past this page, you agree to our
           <span>Terms &amp; Conditions, Privacy Policy and Refund Policy.</span>
         </p>
-        <p>All Rights Reserved &copy; Whizseed, 2023</p>
+        <p>All Rights Reserved &copy; Regulation, 2025</p>
       </div>
     </div>
   </div>

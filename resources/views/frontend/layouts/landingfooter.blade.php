@@ -15,7 +15,7 @@
               class="pb-2"
             />
             <p>
-              WHIZSEED is the ultimate platform for aspiring entrepreneurs and
+            Regulation is the ultimate platform for aspiring entrepreneurs and
               startups. You can streamline your startup journey from ideation to
               execution..
             </p>
@@ -49,8 +49,8 @@
               />
             </div>
             <p>
-              <a href="">info@whizseed.com</a
-              ><!-- <br><a href="">info@whizseed.com</a> -->
+              <a href="">info@Regulation.com</a
+              ><!-- <br><a href="">info@Regulation.com</a> -->
             </p>
           </div>
         </div>
@@ -86,7 +86,7 @@
           </ul>
         </div>
         <div class="ft_name">
-          <p>Whizseed Private Limited</p>
+          <p>Regulation Private Limited</p>
         </div>
       </div>
       <div class="col-md-2">

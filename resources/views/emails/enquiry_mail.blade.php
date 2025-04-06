@@ -42,7 +42,7 @@
   <tr>
     <td>
       <h2 style="text-align: center; color: #0e0f0f; font-size:20px; font-weight: 700; padding-top: 40px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; ">
-      Welcome to The WhizSeed
+      Welcome to The Regulation
       </h2>
         <p style="font-size: 18px; font-weight: 500; color: #333; padding: 50px 40px 0; margin:0px; font-family: 'Montserrat', sans-serif;">
         Dear Customer,
@@ -50,10 +50,10 @@
         <p style="font-size: 15px; line-height: 1.6; color: #333; padding: 10px 40px 40px; margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 400;">We sincerely appreciate your inquiry, and we will be in touch with you shortly to address your request. If you have any immediate questions or require further assistance, please feel free to reach out to us.
     </p>
     <p style="font-size: 15px; line-height: 1.6; color: #333; padding: 10px 40px 40px; margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 400;">
-    Thank you for considering The WhizSeed.
+    Thank you for considering The Regulation.
         </p>
         <p style="font-size: 15px; line-height: 1.6; color: #333; padding: 10px 40px 40px; margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 400;">
-        Best regards,<br/>Team WhizSeed
+        Best regards,<br/>Team Regulation
         </p>
     
       </td>

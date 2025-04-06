@@ -16,118 +16,83 @@
 
 <section class="banner-section pt-5 mt-3">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-7 col-md-12 col-12 banner-heading">
-        <h1>
-          One-Stop Destination <br />
-          For All Your<br>
+    <div class="row align-items-center">
+      <!-- Left Content -->
+      <div class="col-lg-7 col-md-12 banner-heading">
+        <h1 class="display-4 fw-bold mb-3">
+          Your One-Stop Destination <br />
+          for All Business Solutions
         </h1>
-        <p class='banner-heading-h1-p'>Business Requirements</p>
-        <p>At WhizSeed, we're dedicated to fueling your entrepreneurial fire. Our services and <br>expert guidance empower startups and entrepreneurs across India to build, grow, and prosper.
+        <p class="lead mb-4 text-muted">
+          At <strong>Regulationwala</strong>, we empower entrepreneurs and startups across India with end-to-end business registration, compliance, and growth services.
         </p>
-        <div class="banner-search">
-          <input type="text" id='autosearch' placeholder="" />
-          <br>
+
+        <!-- Search and Services -->
+        <div class="banner-search mb-4">
+          <input type="text" id="autosearch" class="form-control mb-2" placeholder="Search for services..." />
           <input type="submit" class="search-icon" value="">
-          <button type="button" class="btn">Go For Services <span><img class="btnarroeimage" src="https://www.whizseed.com/frontend/assets/images1/btnarrow.png" alt="btnarrow"></span></button>
-
-          <!-- <div class="show-most-service">About1</div>
-          <div class="show-most-service">About2</div>
-          <div class="show-most-service">About3</div>
-          <div class="show-most-service">About4</div>
-          <div class="show-most-service">About5</div> -->
-
-          <div class="show-most-service">
-            <div class="bdBtSc" id="animationText-1">Company Registration</div>
-            <div class="bdBtSc" id="animationText-2">Public Limited Company Registration</div>
-            <div class="bdBtSc" id="animationText-3">One Person Company Registration</div>
-            <div class="bdBtSc" id="animationText-4">Nidhi Company Registration</div>
-            <div class="bdBtSc" id="animationText-5">LLP Registration</div>
-            <div class="bdBtSc" id="animationText-6">Sole Proprietorship Registration</div>
-            <div class="bdBtSc" id="animationText-7">Partnership Firm Registration</div>
-            <div class="bdBtSc" id="animationText-8">Indian Subsidiary Company Registration</div>
-            <div class="bdBtSc" id="animationText-9">GST Registration</div>
-            <div class="bdBtSc" id="animationText-10">Startup India Registration</div>
-          </div>
+          <button type="button" class="btn btn-primary px-4">
+            Explore Services
+            <img class="ms-2" src="/path-to-your-assets/arrow-icon.svg" alt="arrow" />
+          </button>
         </div>
-        <div class="search-bar">
-          <!-- <h5>Most recommended services</h5> -->
-          <ul>
-             <li><a href="service/private-limited-company-registration">Company Registration</a></li>
-             <li><a href="service/online-llp-registration-india">LLP Registration</a></li>
-             <li><a href="service/ngo-registration">NGO Registration</a></li>
-             <li><a href="service/one-person-company-opc-registration">OPC Registration</a></li>
-             <li><a href="service/gst-registration">GST Registration</a></li>
-             <li><a href="service/professional-tax-registration">Professional Tax Registration</a></li>
-             <li><a href="service/virtual-cfo-services">Virtual CFO Services</a></li>
-             <li><a href="service/isi-mark-certification">ISI Certification</a></li>
-             <li><a href="service/epr-authorization">EPR Authorization</a></li>
-          </ul>
-       </div>
-        <div class="banner-startup-pro">
-           <h2>RECOMMENDED SERVICES</h2>
-          <div class="banner-most-btn">
-          <div class="banner-most-btn-1stDiv">
-            <a href="service/private-limited-company-registration" target="_blank">Company Registration</a>
-            <a href="service/one-person-company-opc-registration" target="_blank">OPC Registration</a>
-            <a href="service/online-llp-registration-india" target="_blank">LLP Registration</a>
-          </div>
 
-          <div class="banner-most-btn-2ndDiv">
-            <a href="service/ngo-registration" target="_blank">NGO Registration</a>
-            <a href="service/isi-mark-certification" target="_blank">ISI Mark Certification</a>
-            <a style="background:#E2E1E1 !important;"
-            class="view-more"
-            href="https://whizseed.com/Business-Incorporation"
-            >+5 More</a
-          >
-          </div>
+        <!-- Animated Text or Popular Services -->
+        <div class="show-most-service d-flex flex-wrap gap-2 mt-3">
+          <span class="badge bg-secondary">Company Registration</span>
+          <span class="badge bg-secondary">LLP Registration</span>
+          <span class="badge bg-secondary">Startup India</span>
+          <span class="badge bg-secondary">GST Registration</span>
+          <span class="badge bg-secondary">OPC Registration</span>
         </div>
+
+        <!-- Recommended Services -->
+        <div class="banner-startup-pro mt-4">
+          <h2 class="h5 fw-bold mb-3">Recommended Services</h2>
+          <div class="banner-most-btn d-flex flex-wrap gap-3">
+            <a href="service/private-limited-company-registration" class="btn btn-outline-primary">Company Registration</a>
+            <a href="service/one-person-company-opc-registration" class="btn btn-outline-primary">OPC Registration</a>
+            <a href="service/online-llp-registration-india" class="btn btn-outline-primary">LLP Registration</a>
+            <a href="service/ngo-registration" class="btn btn-outline-primary">NGO Registration</a>
+            <a href="service/isi-mark-certification" class="btn btn-outline-primary">ISI Certification</a>
+            <a href="https://regulationwala.com/Business-Incorporation" class="btn btn-light text-primary">+ More Services</a>
+          </div>
         </div>
       </div>
-      <div
-        class="col-lg-5 col-md-12 col-12"
-        style="text-align: right; margin-top: 20px"
-      >
-        <div class="head-banner-img">
-          <img
-            src="https://www.whizseed.com/frontend/assets/images1/bannerImg.png"
-            alt="whizseed-banner"
-          />
-          <div class="Regulatory small-banner-img bounce">
-            <img src="https://www.whizseed.com/frontend/assets/images1/Regulatory-img.svg" alt="Regulatory">
+
+      <!-- Right Image -->
+      <div class="col-lg-5 col-md-12 text-center mt-4 mt-lg-0">
+        <div class="head-banner-img position-relative">
+        <img 
+  src="{{ asset('frontend/assets/images1/banner.png') }}" 
+  class="img-fluid" 
+  alt="Regulationwala Banner" 
+/>
+
+          <!-- <div class="small-banner-img bounce position-absolute top-0 start-0">
+            <img src="/path-to-your-assets/compliance.svg" alt="Compliance" />
           </div>
-          <div class="happyClient small-banner-img bounce">
-            <img src="https://www.whizseed.com/frontend/assets/images1/happyClient.svg" alt="happyClient">
+          <div class="small-banner-img bounce position-absolute top-0 end-0">
+            <img src="/path-to-your-assets/happy-clients.svg" alt="Happy Clients" />
           </div>
-          <div class="Environmental-img small-banner-img bounce">
-            <img src="https://www.whizseed.com/frontend/assets/images1/Environmental-img.svg" alt="Environmental">
+          <div class="small-banner-img bounce position-absolute bottom-0 start-0">
+            <img src="/path-to-your-assets/environmental.svg" alt="Environmental" />
           </div>
-          <div class="startup200 small-banner-img bounce">
-            <img src="https://www.whizseed.com/frontend/assets/images1/startup200.svg" alt="startup200">
-          </div>
+          <div class="small-banner-img bounce position-absolute bottom-0 end-0">
+            <img src="/path-to-your-assets/startup.svg" alt="Startup 200+" />
+          </div> -->
         </div>
-        <div class="V-cfo-service" style="color: #37609b; text-align: center">
-          <a href="#" target="_blank">Our Virtual CFO Services</a>
+
+        <!-- Optional CTA below image -->
+        <div class="V-cfo-service mt-3 text-primary">
+          <a href="#" class="fw-semibold text-decoration-none">Discover Our Virtual CFO Services</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--<section class="client-slider-section">
-  <div class="container">
-      <div class="client-logo-div new-slider">
-        <img
-          src="https://www.whizseed.com/frontend/assets/images1/cmplogo.png"
-          alt="whizseed"
-        />
-        <img
-          src="https://www.whizseed.com/frontend/assets/images1/cmplogo.png"
-          alt="whizseed"
-        />
-      </div>
-  </div>
-</section>-->
+
+
 <section class="mt-5" style="display:none;">
   <div class="group-path">
   <div class="group-path-bg">
@@ -675,142 +640,20 @@
                   </div>
                 </div>
 </section>
-<!-- <section class="service-platform pt-5">
-  <div class="container">
-    <div class="service-header">
-      <h2>
-        <strong>Lorem&#39;s</strong> Largest Services <strong>Platform</strong>
-      </h2>
-      <p>
-        We believe in transforming your vision into reality by providing
-        unparalleled solutions and exceptional results, so trust our experts.
-      </p>
-    </div>
-    <div class="service-item-new">
-      <div class="service-item-list-new">
-        <div class="service-details-new">
-          
-          <div class="service-list-details-new">
-            <h4>Business Setup Services</h4>
-            <p>
-              Unlock the doors to success with seamless business setup, paving
-              the way for your entrepreneurial journey with our professionals at
-              whizseed.
-              <a
-                href="https://www.whizseed.com/business-incorporation"
-                target="_blank"
-                ><i>Read More</i></a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="service-item-list-new">
-        <div class="service-details-new">
-          
-          <div class="service-list-details-new">
-            <h4>Tax Registration</h4>
-            <p>
-              Get your business on the right track with hassle-free tax
-              registration, ensuring compliance and maximizing your financial
-              opportunities.
-              <a
-                href="https://www.whizseed.com/tax-registrations"
-                target="_blank"
-                ><i>Read More</i></a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="service-item-list-new">
-        <div class="service-details-new">
-          
-          <div class="service-list-details-new">
-            <h4>Fundraising Services</h4>
-            <p>
-              Elevate your fundraising efforts to new heights with our expert
-              services, connecting you to the resources and opportunities to
-              achieve your goals.
-              <a
-                href="https://www.whizseed.com/fundraising-services"
-                target="_blank"
-                ><i>Read More</i></a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="service-item-list-new">
-        <div class="service-details-new">
-          
-          <div class="service-list-details-new">
-            <h4>Compliance Management</h4>
-            <p>
-              Safeguarding and Empowering your business landscape by regulating
-              challenges with ease comprehensive compliance management
-              solutions.
-              <a
-                href="https://www.whizseed.com/accounting-compliance"
-                target="_blank"
-                ><i>Read More</i></a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="service-item-list-new">
-        <div class="service-details-new">
-          
-          <div class="service-list-details-new">
-            <h4>Legal Agreement</h4>
-            <p>
-              Our expertly crafted legal agreements provide the solid foundation
-              you need, ensuring clarity, protection, and peace of mind in every
-              business transaction.
-              <a
-                href="https://www.whizseed.com/legal-agreements"
-                target="_blank"
-                ><i>Read More</i></a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="service-item-list-new">
-        <div class="service-details-new">
-          
-          <div class="service-list-details-new">
-            <h4>Virtual CFO Advisory</h4>
-            <p>
-              Unleash the strategic power of your business with our Virtual CFO
-              Advisory services, guiding you towards financial excellence and
-              unlocking unparalleled growth opportunities.
-              <a
-                href="https://www.whizseed.com/services/virtual-cfo-services"
-                target="_blank"
-                ><i>Read More</i></a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
+
 <section class='section-customers-choose-us'>
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-5 col-md-12 col-sm-12 customers-choose-us-heading">
-        <h2>Why Choose Whizseed?</h2>
-        <p>Choose WhizSeed for all your business needs in India because we are your trusted partner in entrepreneurial success. Here's how we can help you:</p>
+        <h2>Why Choose Regulation?</h2>
+        <p>Choose Regulation for all your business needs in India because we are your trusted partner in entrepreneurial success. Here's how we can help you:</p>
         <div class='customers-choose-us-li'>
           <ul>
             <li><strong>Expert Guidance:</strong> Benefit from our seasoned experts who provide tailored advice for your specific business goals.</li>
             <li><strong>Comprehensive Services:</strong> We offer a wide range of services, from company registration to financial planning, to meet all your business needs.</li>
             <li><strong>Customized Solutions:</strong> Our solutions are designed to address your unique challenges, ensuring your business thrives in the Indian market.</li>
             <li><strong>Regulatory Compliance:</strong> Stay on top of ever-changing regulations with our assistance, minimizing legal hassles for your business.</li>
-            <li><strong>Support at Every Step:</strong> WhizSeed is with you from the inception of your business idea to its realization, providing constant support and guidance.</li>
+            <li><strong>Support at Every Step:</strong> Regulation is with you from the inception of your business idea to its realization, providing constant support and guidance.</li>
           </ul>
         </div>
       </div>
@@ -850,39 +693,13 @@
     </div>
   </div>
 </section>
-<!-- <section class="customerslove-section pt-5">
-  <div class="contain">
-    <h2>Reasons Why Customers Love Us</h2>
-    <div class="row pt-5">
-      <div class="col-lg-4 col-md-4 col-sm-12 customer-info-use customer-info-use-left offset-md-2">
-        <img src="https://whizseed.com/frontend/assets/images1/truley-digital.svg" alt="truley-digital-12">
-        <b>Easy-to-Use Dashboard</b>
-        <p>Complete the entire process and chat with us from your dashboard!</p>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 customer-info-use customer-info-use-right">
-        <img src="https://whizseed.com/frontend/assets/images1/truley-digital.svg" alt="truley-digital-12">
-        <b>Easy-to-Use Dashboard</b>
-        <p>Complete the entire process and chat with us from your dashboard!</p>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 customer-info-use customer-info-use-left pt-3  offset-md-2">
-        <img src="https://whizseed.com/frontend/assets/images1/truley-digital.svg" alt="truley-digital-12">
-        <b>Easy-to-Use Dashboard</b>
-        <p>Complete the entire process and chat with us from your dashboard!</p>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 customer-info-use pt-3 customer-info-use-right">
-        <img src="https://whizseed.com/frontend/assets/images1/truley-digital.svg" alt="truley-digital-12">
-        <b>Easy-to-Use Dashboard</b>
-        <p>Complete the entire process and chat with us from your dashboard!</p>
-      </div>
-    </div>
-  </div>
-</section> -->
+
 <section class="global-stratup-section">
   <div class="container-fluid">
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="global-stratup-country-flag">
           <h2>The backbone for <br>global <span>Start up</span></h2>
-          <p>WHIZSEED is the ultimate platform for aspiring entrepreneurs and<br> startups. You can streamline your startup journey from ideation to <br> execution.</p>
+          <p>Regulation is the ultimate platform for aspiring entrepreneurs and<br> startups. You can streamline your startup journey from ideation to <br> execution.</p>
           <img src="https://www.whizseed.com/frontend/assets/images1/countryimag.png" alt="country-flag">
 
           <div class="flag-view-more-div">
@@ -915,7 +732,7 @@
                         </div>
                         <div class='client-revier-para'>
                           <img src="https://www.whizseed.com/frontend/assets/images1/commma.png" alt="aman-gupta">
-                          <p>WhizSeed made our company registration a breeze! Their expert guidance and efficient process saved us time and effort. Highly recommended for startups!</p>
+                          <p>Regulation made our company registration a breeze! Their expert guidance and efficient process saved us time and effort. Highly recommended for startups!</p>
                           <p class="client-name-tag">- Aman Gupta</p>
                         </div>
                       </div>
@@ -942,7 +759,7 @@
                         </div>
                         <div class='client-revier-para'>
                           <img src="https://www.whizseed.com/frontend/assets/images1/commma.png" alt="sonam-malhotra">
-                          <p>WhizSeed's compliance services have been a lifesaver for our business. They keep us on the right side of the law, allowing us to focus on growth with confidence.</p>
+                          <p>Regulation's compliance services have been a lifesaver for our business. They keep us on the right side of the law, allowing us to focus on growth with confidence.</p>
                           <p class="client-name-tag">- Sonam Malhotra</p>
                         </div>
                       </div>

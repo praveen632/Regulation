@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="_token" content="{{ csrf_token() }}" />
-    <title>@yield('title','Regulation')</title>
+    <title>Regulation</title>
 
-    <meta name="keywords" content="@yield('meta_keywords','Regulation')" />
+    <meta name="keywords" content="Regulation" />
     <meta
       name="description"
       content="@yield('meta_description','Regulation')"
@@ -41,12 +41,12 @@
     <link rel="canonical" href="{{url()->current()}}" />
     <link
       rel="shortcut icon"
-      href="{{asset('frontend/assets/images/logo.svg')}}"
+      href="{{asset('frontend/assets/images/logo.jpeg')}}"
       type="image/x-icon"
     />
     <link
       rel="shortcut icon"
-      href="{{asset('frontend/assets/images/logo.svg')}}"
+      href="{{asset('frontend/assets/images/logo.jpeg')}}"
       type="image/x-icon"
     />
 
@@ -316,15 +316,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
     </div>
-    <style>
-      .showReg {
-        display: block;
-      }
-
-      .hideReg {
-        display: none;
-      }
-    </style>
+    
     @include('frontend.layouts.footer')
   </body>
 </html>

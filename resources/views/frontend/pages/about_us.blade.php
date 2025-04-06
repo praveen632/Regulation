@@ -24,13 +24,13 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 contact-heading">
 				<h2>About Us</h2>
-				<p>Whizseed is your go-to online hub for all things legal! We've created a special platform that links top-notch lawyers with business clients, making it easy for you to get the legal help you need. Whether you have questions, need advice, or want to discuss legal matters, we've got you covered. Plus, we like to keep you in the loop with legal updates and news snippets.</p>
+				<p>Regulation is your go-to online hub for all things legal! We've created a special platform that links top-notch lawyers with business clients, making it easy for you to get the legal help you need. Whether you have questions, need advice, or want to discuss legal matters, we've got you covered. Plus, we like to keep you in the loop with legal updates and news snippets.</p>
 				
-				<p>At Whizseed, we've gathered a bunch of talented professionals who specialize in various areas like Environmental issues, Business Registrations, Government Licenses, Compliance, Tax filing, and more. These experts are their own bosses, and no one at Whizseed or any other member firm can speak for them or make commitments on their behalf.</p>
+				<p>At Regulation, we've gathered a bunch of talented professionals who specialize in various areas like Environmental issues, Business Registrations, Government Licenses, Compliance, Tax filing, and more. These experts are their own bosses, and no one at Whizseed or any other member firm can speak for them or make commitments on their behalf.</p>
 
-				<p>Just so you know, Whizseed isn't a law firm. When our lawyers provide answers to your legal questions, they keep things simple and easy to understand, but remember, these are not full legal opinions. They're here to help you out of goodwill, but it doesn't create a formal lawyer-client relationship. It's important to note that the services we offer are not a replacement for advice from a lawyer.</p>
+				<p>Just so you know, Regulation isn't a law firm. When our lawyers provide answers to your legal questions, they keep things simple and easy to understand, but remember, these are not full legal opinions. They're here to help you out of goodwill, but it doesn't create a formal lawyer-client relationship. It's important to note that the services we offer are not a replacement for advice from a lawyer.</p>
 
-				<p>One cool thing about Whizseed is that clients like you post your queries or cases on our platform, and you get to choose the lawyer you want to work with. You're in the driver's seat when it comes to picking your lawyer!</p>
+				<p>One cool thing about Regulation is that clients like you post your queries or cases on our platform, and you get to choose the lawyer you want to work with. You're in the driver's seat when it comes to picking your lawyer!</p>
 			</div>
 			<div class="col-lg-1 col-md-1"></div>
 			<div class="col-lg-5 col-md-5 col-sm-12 contact-heading-img">
@@ -40,7 +40,7 @@
 	</div>
 </section>
 <div class="people-5000">
-	<h2><b>50,000+ People</b> Choose WHIZSEED for their Legal Solutions</h2>
+	<h2><b>50,000+ People</b> Choose Regulation for their Legal Solutions</h2>
 </div>
 <section class="mt-5 Comprehens-checklist-section">
     <div class="container-fluid Comprehens-checklist">

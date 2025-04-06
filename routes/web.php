@@ -40,9 +40,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::fallback(function () {    
-    return redirect()->back();
- });
+
 Route::post('admin-login', [LoginController::class, 'loginForm'])->name('loginForm');
 
 Auth::routes();  
@@ -206,6 +204,9 @@ Route::post('customer-login', [LoginController::class, 'customerLogin'])->name('
 
 /*Send Email*/
 Route::get('send-mail', [MailController::class, 'index']);
+Route::fallback(function () {    
+    return redirect()->back();
+ });
 
 
 

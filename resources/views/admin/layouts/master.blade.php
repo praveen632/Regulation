@@ -6,9 +6,9 @@
 
     <meta charset="utf-8">
 
-    <title> Whizseed </title>
+    <title> Regulation</title>
 
-    <link href="{{asset('frontend/assets/images/logo.svg')}}" rel="shortcut icon" type="image/ico">
+    <link href="{{asset('frontend/assets/images/logo.jpeg')}}" rel="shortcut icon" type="image/ico">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 

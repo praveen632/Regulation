@@ -521,7 +521,7 @@
                         </div>
                         <div class='client-revier-para'>
                           <img src="https://www.whizseed.com/frontend/assets/images1/commma.png" alt="Sarbvir-Singh">
-                          <p>WhizSeed made our company registration a breeze! Their expert guidance and efficient process saved us time and effort. Highly recommended for startups!</p>
+                          <p>Regulation made our company registration a breeze! Their expert guidance and efficient process saved us time and effort. Highly recommended for startups!</p>
                           <p class="client-name-tag">-	Namita Kapoor</p>
                         </div>
                       </div>
@@ -535,7 +535,7 @@
                         </div>
                         <div class='client-revier-para'>
                           <img src="https://www.whizseed.com/frontend/assets/images1/commma.png" alt="Sarbvir-Singh">
-                          <p>Choosing WhizSeed for our NBFC needs was a game-changer. Their in-depth knowledge and personalized solutions ensured a smooth and compliant operation.</p>
+                          <p>Choosing Regulation for our NBFC needs was a game-changer. Their in-depth knowledge and personalized solutions ensured a smooth and compliant operation.</p>
                           <p class="client-name-tag">-	Akash Yadav</p>
                         </div>
                       </div>
@@ -548,7 +548,7 @@
                         </div>
                         <div class='client-revier-para'>
                           <img src="https://www.whizseed.com/frontend/assets/images1/commma.png" alt="Sarbvir-Singh">
-                          <p>WhizSeed's compliance services have been a lifesaver for our business. They keep us on the right side of the law, allowing us to focus on growth with confidence.</p>
+                          <p>Regulation's compliance services have been a lifesaver for our business. They keep us on the right side of the law, allowing us to focus on growth with confidence.</p>
                           <p class="client-name-tag">-	Sonam Malhotra</p>
                         </div>
                       </div>

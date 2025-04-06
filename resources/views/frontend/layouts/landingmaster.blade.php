@@ -4,20 +4,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="_token" content="{{ csrf_token() }}" />
-    <title>@yield('title','Whizseed')</title>
+    <title>Regulation</title>
 
-    <meta name="keywords" content="@yield('meta_keywords','Whizseed')" />
+    <meta name="keywords" content="@yield('meta_keywords','Regulation')" />
     <meta
       name="description"
-      content="@yield('meta_description','Whizseed')"
+      content="@yield('meta_description','Regulation')"
     />
 
-    <meta property="og:title" content="@yield('title','Whizseed')" />
+    <meta property="og:title" content="@yield('title','Regulation')" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{url()->current()}}" />
     <meta
       property="og:description"
-      content="@yield('meta_description','Whizseed')"
+      content="@yield('meta_description','Regulation')"
     />
     <meta property="og:site_name" content="StartupFino" />
     <meta
@@ -25,7 +25,7 @@
       content="{{asset('frontend/assets/images/startupfinogiflogo.gif')}}"
     />
     <meta property="og:image:type" content="image/gif" />
-    <meta property="og:image:alt" content="@yield('title','Whizseed')" />
+    <meta property="og:image:alt" content="@yield('title','Regulation')" />
 
     <link rel="canonical" href="{{url()->current()}}" />
     <link
