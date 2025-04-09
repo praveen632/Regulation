@@ -65,7 +65,7 @@ class UserController extends Controller
         $input['is_admin'] = 1;
         $user = User::create($input);
         $user->assignRole($request->input('roles'));
-        \LogActivity::addToLog('User created successfully');
+        // \LogActivity::addToLog('User created successfully');
         return redirect()->route('users.index')
                         ->with('success','User created successfully');
     }
@@ -126,7 +126,7 @@ class UserController extends Controller
         DB::table('model_has_roles')->where('model_id',$id)->delete();
     
         $user->assignRole($request->input('roles'));
-        \LogActivity::addToLog('User updated successfully');
+        // \LogActivity::addToLog('User updated successfully');
         return redirect()->route('users.index')
                         ->with('success','User updated successfully');
     }
@@ -140,7 +140,7 @@ class UserController extends Controller
     public function destroy($id)
     {
         User::find($id)->delete();
-        \LogActivity::addToLog('User deleted successfully');
+        // \LogActivity::addToLog('User deleted successfully');
         return redirect()->route('users.index')
                         ->with('success','User deleted successfully');
     }
@@ -155,7 +155,7 @@ class UserController extends Controller
         }
         $value     = array('status' => $status);
         User::where('id', $id)->update($value);
-        \LogActivity::addToLog('Status changed successfully changed!');
+        // \LogActivity::addToLog('Status changed successfully changed!');
         return redirect()->back()->with(['success' => 'Status changed successfully changed!']);
     }
 }

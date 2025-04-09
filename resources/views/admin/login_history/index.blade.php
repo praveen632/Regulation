@@ -69,45 +69,45 @@
 @endsection
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
-    const fetch_data = (page, status, seach_term) => {
-        if(status === undefined){
-            status = "";
-        }
-        if(seach_term === undefined){
-            seach_term = "";
-        }
-        $.ajax({ 
-            url:"{{route('loginhistory.index')}}?page="+page+"&status="+status+"&seach_term="+seach_term,
-            type: 'GET',
-            success:function(data){
-                $('tbody').html('');
-                $('tbody').html(data);
-            }
-        })
-    }
+// $(document).ready(function(){
+//     const fetch_data = (page, status, seach_term) => {
+//         if(status === undefined){
+//             status = "";
+//         }
+//         if(seach_term === undefined){
+//             seach_term = "";
+//         }
+//         $.ajax({ 
+//             url:"{{route('loginhistory.index')}}?page="+page+"&status="+status+"&seach_term="+seach_term,
+//             type: 'GET',
+//             success:function(data){
+//                 $('tbody').html('');
+//                 $('tbody').html(data);
+//             }
+//         })
+//     }
 
-    $('body').on('keyup', '#serach', function(){
-        var status = $('#status').val();
-        var seach_term = $('#serach').val();
-        var page = $('#hidden_page').val();
-        fetch_data(page, status, seach_term);
-    });
+//     $('body').on('keyup', '#serach', function(){
+//         var status = $('#status').val();
+//         var seach_term = $('#serach').val();
+//         var page = $('#hidden_page').val();
+//         fetch_data(page, status, seach_term);
+//     });
 
-    $('body').on('change', '#status', function(){
-        var status = $('#status').val();
-        var seach_term = $('#serach').val();
-        var page = $('#hidden_page').val();
-        fetch_data(page, status, seach_term);
-    });
+//     $('body').on('change', '#status', function(){
+//         var status = $('#status').val();
+//         var seach_term = $('#serach').val();
+//         var page = $('#hidden_page').val();
+//         fetch_data(page, status, seach_term);
+//     });
 
-    $('body').on('click', '.pager a', function(event){
-        event.preventDefault();
-        var page = $(this).attr('href').split('page=')[1];
-        $('#hidden_page').val(page);
-        var status = $('#status').val();
-        var seach_term = $('#serach').val();
-        fetch_data(page,status, seach_term);
-    });
-});
+//     $('body').on('click', '.pager a', function(event){
+//         event.preventDefault();
+//         var page = $(this).attr('href').split('page=')[1];
+//         $('#hidden_page').val(page);
+//         var status = $('#status').val();
+//         var seach_term = $('#serach').val();
+//         fetch_data(page,status, seach_term);
+//     });
+// });
 </script>

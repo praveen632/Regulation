@@ -40,7 +40,7 @@ class StateController extends Controller
         $state = $this->stateservice->store($data);
 
         if($state) {
-            \LogActivity::addToLog('State added successfully.');
+            // \LogActivity::addToLog('State added successfully.');
             return redirect()->route('states.index')->with(['success' => 'State added successfully.']);
         }
 
@@ -64,7 +64,7 @@ class StateController extends Controller
         
 
         if($State) {
-            \LogActivity::addToLog('State updated successfully.');
+            // \LogActivity::addToLog('State updated successfully.');
             return redirect()->route('states.index')->with(['success' => 'State updated successfully.']);
         }
 
@@ -75,7 +75,7 @@ class StateController extends Controller
     {
         $state = $this->stateservice->delete($id);
         if($state) {
-            \LogActivity::addToLog('State Deleted successfully.');
+            // \LogActivity::addToLog('State Deleted successfully.');
             return redirect()->route('states.index')->with(['success' => 'State Deleted successfully.']);
         }
 

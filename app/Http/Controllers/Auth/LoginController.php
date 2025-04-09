@@ -61,7 +61,7 @@ class LoginController extends Controller
             if (auth()->user()->is_admin == '1') {
                 $user = Auth::user();
 
-                event(new LoginHistory($user));
+                // event(new LoginHistory($user));
                 
                 $request->session()->flash('alert-success', 'You have successfully loged in.');
                 return redirect()->route('dashboard');
@@ -96,7 +96,7 @@ class LoginController extends Controller
                         // return redirect()->route('dashboard');
                         $user = Auth::user();
 
-                        event(new LoginHistory($user));
+                        // event(new LoginHistory($user));
 
                         return response()->json([
                             'success' => 'You have successfully loged in.',
@@ -117,7 +117,7 @@ class LoginController extends Controller
 
                 $user = Auth::user();
 
-                    event(new LoginHistory($user));
+                    // event(new LoginHistory($user));
                     return response()->json([
                         'success' => 'You have successfully loged in.',
                     ]);

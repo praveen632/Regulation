@@ -44,7 +44,7 @@ class CityController extends Controller
         $city = $this->cityservice->store($data);
 
         if($city) {
-            \LogActivity::addToLog('City added successfully.');
+            // \LogActivity::addToLog('City added successfully.');
             return redirect()->route('cities.index')->with(['success' => 'City added successfully.']);
         }
 
@@ -69,7 +69,7 @@ class CityController extends Controller
         $city = $this->cityservice->update($data, $id);
         
         if($city) {
-            \LogActivity::addToLog('City updated successfully.');
+            // \LogActivity::addToLog('City updated successfully.');
             return redirect()->route('cities.index')->with(['success' => 'City updated successfully.']);
         }
 
@@ -80,7 +80,7 @@ class CityController extends Controller
     {
         $city = $this->cityservice->delete($id);
         if($city) {
-            \LogActivity::addToLog('City Deleted successfully.');
+            // \LogActivity::addToLog('City Deleted successfully.');
             return redirect()->route('cities.index')->with(['success' => 'City Deleted successfully.']);
         }
 

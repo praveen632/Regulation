@@ -59,7 +59,7 @@ class LoginController extends Controller
 
             $user = Auth::user();
 
-            event(new LoginHistory($user));
+            // event(new LoginHistory($user));
 
             $this->message = 'You have successfully loged in.';
             $this->data = compact('user');

@@ -36,9 +36,9 @@
               />
             </div>
             <p>
-              <a href="tel:9625432342">Mobile: <b>9625432342</b></a
+              <a href="tel:8888888">Mobile: <b>888888888</b></a
               ><br />
-              <a href="tel:9625432342">Mobile: <b>9625432342</b></a>
+              <a href="tel:8888888">Mobile: <b>888888888</b></a>
             </p>
           </div>
           <div class="footer-item">
@@ -126,16 +126,7 @@
       </div>
     </div>
   </div>
-  <!-- <div class="chat-btn-div">
-    <a
-      href="https://api.whatsapp.com/send?phone=919625432342&amp;text=Hi,%20I%20need%20help%20regarding%20something"
-      class="applyinfo-btn"
-      ><img
-        src="{{asset('frontend/assets/images/wp.png')}}"
-        style="width: 50px"
-      />
-    </a>
-  </div> -->
+  
 </footer>
 <div class="footer-nav-policyandsocial">
   <div class="container">

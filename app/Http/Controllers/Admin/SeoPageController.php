@@ -106,7 +106,7 @@ class SeoPageController extends Controller
         
         $seo = $this->seo->store($data);
         if($seo) {
-            \LogActivity::addToLog('Seo Page added successfully.');
+            // \LogActivity::addToLog('Seo Page added successfully.');
             return redirect()->route('seo-pages.index')->with(['success' => 'Seo Page added successfully.']);
         }
 
@@ -139,7 +139,7 @@ class SeoPageController extends Controller
         $seo = $this->seo->update($data, $id);
 
         if($seo) {
-            \LogActivity::addToLog('Seo Page updated successfully.');
+            // \LogActivity::addToLog('Seo Page updated successfully.');
             return redirect()->route('seo-pages.index')->with(['success' => 'Seo Page updated successfully.']);
         }
 
@@ -151,7 +151,7 @@ class SeoPageController extends Controller
         $seo = $this->seo->delete($id);
 
         if($seo) {
-            \LogActivity::addToLog('Seo Page Deleted successfully.');
+            // \LogActivity::addToLog('Seo Page Deleted successfully.');
             return redirect()->route('seo-pages.index')->with(['success' => 'Seo Page Deleted successfully.']);
         }
 

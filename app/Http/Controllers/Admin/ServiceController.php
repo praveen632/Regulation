@@ -130,7 +130,7 @@ class ServiceController extends Controller
              
            if ($service->save() ) {
             AddSeoData($service->id, 2);
-             \LogActivity::addToLog('Services added successfully.');
+            //  \LogActivity::addToLog('Services added successfully.');
              $request->session()->flash('alert-success', "Services added successfully.");
              return redirect()->route('service.index');
            }
@@ -174,7 +174,7 @@ class ServiceController extends Controller
                  AddSeoData($service->id, 2);
              }
              
-             \LogActivity::addToLog('Services added successfully.');
+            //  \LogActivity::addToLog('Services added successfully.');
              $request->session()->flash('alert-success', "Services added successfully.");
              return redirect()->route('service.index');
             
@@ -308,7 +308,7 @@ class ServiceController extends Controller
                  AddSeoData($service->id, 2);
              }
             } 
-             \LogActivity::addToLog('Services successfully updated.');
+            //  \LogActivity::addToLog('Services successfully updated.');
  
              $request->session()->flash('alert-success', "Services successfully updated.");
  
@@ -353,7 +353,7 @@ class ServiceController extends Controller
          $service = Service::find($id);
          if ($service->delete()) {
  
-             \LogActivity::addToLog('Service successfully deleted.');
+            //  \LogActivity::addToLog('Service successfully deleted.');
  
              $request->session()->flash('alert-success', "Service successfully deleted.");
  
@@ -393,7 +393,7 @@ class ServiceController extends Controller
  
  
  
-         \LogActivity::addToLog('Service Status successfully changed!');
+        //  \LogActivity::addToLog('Service Status successfully changed!');
  
          $request->session()->flash('alert-success', "Status successfully changed!");
  

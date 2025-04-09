@@ -86,7 +86,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="https://www.whizseed.com/frontend/assets/css/custome.css"
+      href="{{asset('frontend/assets/css/custome.css')}}"
     />
     <link
       rel="stylesheet"

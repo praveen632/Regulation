@@ -67,7 +67,7 @@ class PageController extends Controller
         $page = $this->page->store($data);
         if($page) {
             AddSeoData($page->id, 0);
-            \LogActivity::addToLog('Page added successfully.');
+            // \LogActivity::addToLog('Page added successfully.');
             return redirect()->route('pages.index')->with(['success' => 'Page added successfully.']);
         }
 
@@ -126,7 +126,7 @@ class PageController extends Controller
         $page = $this->page->update($data, $page->id);
 
         if($page) {
-            \LogActivity::addToLog('Page updated successfully.');
+            // \LogActivity::addToLog('Page updated successfully.');
             return redirect()->route('pages.index')->with(['success' => 'Page updated successfully.']);
         }
 
@@ -136,7 +136,7 @@ class PageController extends Controller
     public function changeStatus(Request $request, $id)
     {
         $this->page->statusChange($id);
-        \LogActivity::addToLog('Page Status successfully changed.');
+        // \LogActivity::addToLog('Page Status successfully changed.');
         return redirect()->route('pages.index')->with(['success' => 'Status successfully changed.']);
     }
 
@@ -145,7 +145,7 @@ class PageController extends Controller
         $page = $this->page->delete($id);
 
         if($page) {
-            \LogActivity::addToLog('Page Deleted successfully.');
+            // \LogActivity::addToLog('Page Deleted successfully.');
             return redirect()->route('pages.index')->with(['success' => 'Page Deleted successfully.']);
         }
 

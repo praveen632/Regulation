@@ -1,24 +1,7 @@
 <footer>
-  <!-- <img
-    id="footer-curve"
-    src="https://www.whizseed.com/frontend/assets/images/footer-sction-bg.png"
-    alt="footer-img"
-  /> -->
+  
   <div class="container-fluid">
-    <!-- <div class="row">
-      <div class="col-lg-5 col-md-5 col-sm-12">
-        <div class="suscriptionEmail">
-          <h2>Subscribe to our <br>Newsletter</h2>
-          <p>Stay updated with all the latest legal updates. Just enter your email address and subscribe for free!</p>
-        </div>
-      </div>
-      <div class="col-lg-7 col-md-7 col-sm-12">
-          <div>
-            <input>
-            <button>SubScribe <span><img class="btnarroeimage" src="https://www.whizseed.com/frontend/assets/images1/btnarrow.png" alt="btnarrow"></span></buuton>
-          </div>
-      </div>
-    </div> -->
+    
     <section class="suscribeNewsletter-section">
       <div class="container-fluid">
         <div class="row">
@@ -32,7 +15,7 @@
           <div class="col-lg-6 col-md-6 col-sm-12" style=" margin: auto 0px;">
             <div class="suscribeNewsletter-input-btn">
               <input tyep="email" class="form-control" placeholder="Enter Your Email Address">
-              <button class="pulse">Subscribe <span><img class="btnarroeimage" src="https://www.whizseed.com/frontend/assets/images1/btnarrow.png" alt="btnarrow"></span></button>
+              <button class="pulse">Subscribe <span><img class="btnarroeimage" src="{{asset('frontend/assets/images1/btnarrow.png')}}" alt="btnarrow"></span></button>
             </div>
           </div>
         </div>
@@ -55,31 +38,31 @@
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/whizseed"
+                href="https://www.facebook.com/regulation"
                 target="_blank"
                 >
-                <img src="https://www.whizseed.com/frontend/assets/images1/facebook-new.svg" alt="facebook">
+                <img src="{{asset('frontend/assets/images1/facebook-new.svg')}}" alt="facebook">
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/whizseed" target="_blank"
-                ><img src="https://www.whizseed.com/frontend/assets/images1/twitter-x.svg" alt="twitter x"></a>
+              <a href="https://twitter.com/regulation" target="_blank"
+                ><img src="{{asset('frontend/assets/images1/twitter-x.svg')}}" alt="twitter x"></a>
             </li>
             <li>
-              <a href="https://www.youtube.com/@Whizseed" target="_blank"
-                ><img src="https://www.whizseed.com/frontend/assets/images1/youtube-new.svg" alt="youtube"></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/company/whizseed/"
-                target="_blank"
-                ><img src="https://www.whizseed.com/frontend/assets/images1/linkdin-new.svg" alt="linkdin"></a>
+              <a href="https://www.youtube.com/@Regulation" target="_blank"
+                ><img src="{{asset('frontend/assets/images1/youtube-new.svg')}}" alt="youtube"></a>
             </li>
             <li>
               <a
-                href="https://www.instagram.com/whizseed/"
+                href="https://www.linkedin.com/company/regulation/"
                 target="_blank"
-                ><img src="https://www.whizseed.com/frontend/assets/images1/instagram-new.svg" alt="instagram"></a>
+                ><img src="{{asset('frontend/assets/images1/linkdin-new.svg')}}" alt="linkdin"></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/regulation/"
+                target="_blank"
+                ><img src="{{asset('frontend/assets/images1/instagram-new.svg')}}" alt="instagram"></a>
             </li>
           </ul>
         </div>
@@ -97,54 +80,16 @@
                     alt="logo"
                     class="pb-2" style="width: 160px;height: 70px;"
                   />
-                <!-- <p class="footer-item-list-whizseed">whizseed.com</p> -->
+               
                 <p>
-                Regulation is one and only platform in India which is exclusively formed to support startups for their financial and legal matters. <a href="https://whizseed.com/about-us">Read More...</a>
+                Regulation is one and only platform in India which is exclusively formed to support startups for their financial and legal matters. 
                 </p>
             </div>
           </div>
         </div>
       <div class="col-lg-9 col-md-12 col-sm-12">
         <div class="row">
-          <!-- <div class="col-lg-3 col-md-3 col-sm-12 footer-item-list">
-            <h4>Start-Up</h4>
-            <ul>
-            <li><a href="https://whizseeddigital.com/service/private-limited-company-registration">Company Registration</a></li>
-            <li><a href="https://whizseeddigital.com/service/online-llp-registration-india">LLP Registration</a></li>
-            <li><a href="https://whizseeddigital.com/service/one-person-company-opc-registration">OPC Registration</a></li>
-            <li><a href="https://whizseeddigital.com/service/startup-india-registration">Startup India Registration</a></li>  
-            <li><a href="https://whizseeddigital.com/service/sole-proprietorship-registration">Proprietorship Registration</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 footer-item-list">
-            <h4>License</h4>
-            <ul>
-            <li><a href="https://whizseeddigital.com/service/mso-license">MSO License</a></li>
-            <li><a href="https://whizseeddigital.com/service/fssai-license">FSSAI License</a></li>
-            <li><a href="https://whizseeddigital.com/service/fssai-state-license">FSSAI State License</a></li>
-            <li><a href="https://whizseeddigital.com/service/fssai-central-license">FSSAI Central License</a></li>  
-        
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 footer-item-list">
-            <h4>Environmental</h4>
-            <ul>
-            <li><a href="https://whizseed.com/service/epr-authorization">EPR Authorization</a></li>
-            <li><a href="https://whizseed.com/service/plastic-waste-recycling-license">Plastic Waste Recycling License</a></li>
-            <li><a href="https://whizseed.com/service/new-battery-import-license">New Battery Import License</a></li>
-            <li><a href="https://whizseed.com/service/vehicle-scrapping-facility-authorization">Vehicle Scrapping Facility Authorization</a></li>  
-            <li><a href="https://whizseed.com/service/registration-for-scrap-battery-import-moef">Registration for Scrap Battery Import</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 footer-item-list">
-            <h4>Regulatory</h4>
-            <ul>
-            <li><a href="https://whizseed.com/service/bis-crs-registration">BIS CRS Registration</a></li>
-            <li><a href="https://whizseed.com/service/isi-mark-certification">ISI Certification</a></li>
-            <li><a href="https://whizseed.com/service/hallmark-registration">Hallmark Registration</a></li>
-            
-            </ul>
-          </div> -->
+         
         </div>
       </div>
       </div>
@@ -152,7 +97,7 @@
   </section>
   <div class="chat-btn-div">
     <a
-      href="https://api.whatsapp.com/send?phone=+919625432342&amp;text=Hi"
+      href="https://api.whatsapp.com/send?phone=+91000000000&amp;text=Hi"
       class="applyinfo-btn"
       ><img
         src="{{asset('frontend/assets/images/wp.png')}}"
@@ -192,11 +137,7 @@
 <div class="footer-copyrightsandpolicy">
   <div class="container">
     <div class="footer-rights-div">
-       <!-- <div>
-        <img
-          src="https://www.whizseed.com/frontend/assets/images/payment-icon.png"
-          alt="upi-img"/>
-      </div> -->
+      
       <div class="mt-3 pb-3">
         <p>
           By continuing past this page, you agree to our
@@ -292,59 +233,7 @@ $(document).ready(function() {
           autoplayTimeout:3000,
           autoplayHoverPause:true
       });
-      // $(".slick-slider-testimonial").slick({
-      //   // slidesToShow: 3,
-      //   infinite:true,
-      //   slidesToScroll: 1,
-      //   autoplay: true,
-      //   autoplaySpeed: 2000,
-      //     // dots: false, Boolean,
-      //     // arrows: true, Boolean
-      //   });
-  
-      // setTimeout(function () {
-      // const userAgent = navigator.userAgent.toLowerCase();
-      // const isTablet =
-      //   /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(
-      //   userAgent
-      //   );
-  
-      // if (
-      //   navigator.userAgent.match(/Android/i) ||
-      //   navigator.userAgent.match(/webOS/i) ||
-      //   navigator.userAgent.match(/iPhone/i) ||
-      //   // || navigator.userAgent.match(/iPad/i)
-      //   navigator.userAgent.match(/iPod/i) ||
-      //   navigator.userAgent.match(/BlackBerry/i) ||
-      //   navigator.userAgent.match(/Windows Phone/i)
-      // ) {
-      //   $(".slick-slider-testimonial").slick({
-      //   slidesToShow: 1,
-      //   infinite: true,
-      //   slidesToScroll: 1,
-      //   autoplay: true,
-      //   autoplaySpeed: 2000,
-      //   });
-      // } else if (isTablet) {
-      //   $(".slick-slider-testimonial").slick({
-      //   slidesToShow: 1,
-      //   infinite: true,
-      //   slidesToScroll: 1,
-      //   autoplay: true,
-      //   autoplaySpeed: 2000,
-      //   });
-      // } else {
-      //   $(".slick-slider-testimonial").slick({
-      //   slidesToShow: 1,
-      //   infinite: true,
-      //   slidesToScroll: 1,
-      //   autoplay: true,
-      //   autoplaySpeed: 2000,
-      //   // dots: false, Boolean,
-      //   // arrows: true, Boolean
-      //   });
-      // }
-      // }, 10);
+      
   
     });
     </script>
@@ -383,140 +272,8 @@ $(document).ready(function() {
     }
   });
 
-  // $(function() {
-  //  $('.autosearch').autocomplete({
-  //    source: serviceArr,
-  //    select: function(event, ui) {
-  //      window.location.href = ui.item.value;
-  //    }
-  //  });
-  // });
-
   window.sr = new scrollReveal();
-  /*function on() {
-    document.getElementById("overlay").style.display = "block";
-  }*/
-
-  /*function off() {
-    document.getElementById("overlay").style.display = "none";
-  }*/
-  // $('.banner').slick({
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   arrows: true,
-  //   dots: true,
-  //   autoplaySpeed: 10000
-  // });
-  // $(".center").slick({
-  //   dots: false,
-  //   infinite: true,
-  //   centerMode: true,
-  //   centerPadding: '150px',
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   // adaptiveHeight: true,
-  //   responsive: [{
-  //     breakpoint: 767,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       centerPadding: '0',
-  //       slidesToScroll: 1
-  //     }
-  //   }]
-  // });
-
-  // $('.testimonial-slider').slick({
-  //   slidesToShow: 2,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   arrows: false,
-  //   dots: false,
-  //   autoplaySpeed: 10000,
-  //   responsive: [{
-  //     breakpoint: 767,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 1
-  //     }
-  //   }]
-  // });
-  // $('.related-slider').slick({
-  //   slidesToShow: 3,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   arrows: false,
-  //   dots: false,
-  //   autoplaySpeed: 10000,
-  //   responsive: [{
-  //     breakpoint: 767,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 1
-  //     }
-  //   }]
-  // });
-  // $('.client-slider').slick({
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   arrows: false,
-  //   dots: true,
-  //   infinite: true,
-  //   autoplaySpeed: 1000,
-  //   responsive: [{
-  //     breakpoint: 767,
-  //     settings: {
-  //       slidesToShow: 2,
-  //       centerMode: true,
-  //       dots:false,
-  //       slidesToScroll: 1
-  //     }
-  //   }]
-  // });
-  // $('.client-logo-slider').slick({
-  //   slidesToShow: 5,
-  //   autoplay: true,
-  //   autoplaySpeed: 1000,
-  //   arrows: false,
-  //   dots: false,
-  // });
-  // $('.compassion-slider').slick({
-  //   slidesToShow: 3,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   arrows: true,
-  //   dots: false,
-  //   autoplaySpeed: 10000,
-  //   responsive: [{
-  //     breakpoint: 767,
-  //     settings: {
-  //       slidesToShow: 2,
-  //       slidesToScroll: 1
-  //     },
-  //     breakpoint: 767,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 1
-  //     }
-  //   }]
-  // });
-  // $('.common-slider').slick({
-  //   slidesToShow: 2,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   arrows: true,
-  //   dots: false,
-  //   autoplaySpeed: 10000,
-  //   responsive: [{
-  //     breakpoint: 767,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 1
-  //     }
-  //   }]
-  // });
-
+  
   $('.nav-tabs-dropdown').on("click", "li:not('.active') a", function(event) {
     $(this).closest('ul').removeClass("open");
   }).on("click", "li.active a", function(event) {
@@ -536,30 +293,7 @@ $(document).ready(function() {
       }
     });
   });
-  // $('.service-slider').slick({
-  //   slidesToShow: 3,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   arrows: true,
-  //   dots: false,
-  //   autoplaySpeed: 10000,
-  //   responsive: [{
-  //       breakpoint: 1024,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 1
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 600,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1
-  //       }
-  //     }
-  //   ]
-  // });
-
+  
 
   $(document).ready(function() {
 
@@ -601,17 +335,7 @@ $(document).ready(function() {
     });
   }
 
-  // $(function() {
-  //     $('a[href^="#"]').on('click', function(event) {
-  //         var target = $(this.getAttribute('href'));
-  //         if (target.length) {
-  //             event.preventDefault();
-  //             $('html, body').stop().animate({
-  //                 scrollTop: target.offset().top
-  //             }, 1000);
-  //         }
-  //     });
-  // });
+  
 
   $(".tabclass").click(function() {
     var tabId = $(this).attr('data-tab');
@@ -641,17 +365,7 @@ $(document).ready(function() {
   $(document).ready(function() {
     $('.responsive-tabs').responsiveTabs();
     
-    
-    // if($('.nav-bar-h').css('display') === 'block')
-        //      {
-        //          $('.searcha-area1').css("display", "block")
-        //          $('.searcha-area2').css("display", "none")
-        //      }
-        //      else
-        //      {
-        //        $('.searcha-area1').css("display", "none")
-        //          $('.searcha-area2').css("display", "block")
-        //      } 
+   
   });
 
   function myFunction() {
@@ -747,38 +461,7 @@ $(document).ready(function() {
     placeholder();
   });
 
-  // $(window).scroll(function(e) {
-  //  updateActiveClassesOnScroll();
-  // });
-
-  // function updateActiveClassesOnScroll() {
-  //  var sticky = $('.formarea'),
-  //    scroll = $(window).scrollTop();
-
-  //  const last_el = $('.service-content div:first');
-  //  const last_el_bottom = last_el.position().top + last_el.outerHeight(true);
-  //  const secondDivPosition = $('.service-content div:first').children().eq(1).position().top;
-
-  //  if (scroll >= 500) {
-  //    // console.log(scroll ,'hello')
-  //    if (last_el_bottom < scroll) sticky.removeClass('fixed');
-  //    else sticky.addClass('fixed')
-
-
-  //    $('.service-content div:first').children().each(function(i) {
-  //      if ($(this).position().top <= scroll - secondDivPosition) {
-  //        $('.service-link ul li a.active').removeClass('active');
-  //        $('.service-link ul li').eq(i).children('a').addClass('active');
-  //      }
-  //    });
-
-  //  } else {
-  //    sticky.removeClass('fixed');
-
-  //    $('.service-link ul li a.active').removeClass('active');
-  //    $('.service-link ul li:first').children('a').addClass('active');
-  //  }
-  // }
+  
   </script>
   <script  type="https://www.jqueryscript.net/demo/Bootstrap-Tabs-Accordions-Mobile/accordion.js"></script>
   <script  type="text/javascript">
@@ -840,59 +523,7 @@ $(document).ready(function() {
       }
     });
   </script>
-  <!--Start of Tawk.to Script-->
-  <!-- <script  type="text/javascript">
-  var Tawk_API = Tawk_API || {},
-    Tawk_LoadStart = new Date();
-  (function() {
-    var s1 = document.createElement("script"),
-      s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/5ef0b5119e5f6944229112f3/default';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
-  })();
-
   
-  </script> -->
-  <!-- <script  type="text/javascript">
-     if ($(window).width() <= 768)
-     {
-      $('#callus_btn1').removeClass('btn-lg');
-      $('.vcfo_consultation_form,.call_girl_btn,.btn-chatgreen').removeClass('btn-lg');
-      $('.talk_to_an_export').removeClass('btn-lg').addClass('btn-sm');
-      $('.startups_trust_us_2').show();
-      $('.mob_carousel').addClass('img-thumbnail mx-auto d-block').show();
-      $('.get_started_3').addClass('mt-n3');
-      $('.get_started_2').addClass('mb-3');
-      $('.chat_with_us_btn').removeClass('mt-5').addClass('mt-n2');
-      $('.talk_to_an_export').removeClass('mb-5').addClass('mb-3');
-      $('.overview_small').removeClass('col-lg-4 col-md-4 col-sm-4 col-4').addClass('col-lg-12 col-md-12 col-sm-12 col-12');
-      $('.benefit_btn,.list_article,.benefit_btn_1').removeClass('col-lg-6 col-md-6 col-6').addClass('col-lg-12 col-md-12 col-sm-12 col-12');
-    }
-    else
-    {
-      $('#callus_btn1').addClass('btn-lg');
-      $('.vcfo_consultation_form,.call_girl_btn,.btn-chatgreen').addClass('btn-lg');
-      $('.talk_to_an_export').removeClass('btn-sm').addClass('btn-lg');
-      $('.talk_to_an_export').removeClass('mb-3').addClass('mb-5');
-      $('.get_started_3').removeClass('mt-n3');
-      $('.chat_with_us_btn').removeClass('mt-n2').addClass('mt-5');
-      $('.circle-img,.advisory_services_img,.scan_qr_code').show();
-      $('.mob_carousel').removeClass('img-thumbnail mx-auto d-block').hide();
-      // $('.overview_large').removeClass('col-lg-12 col-md-12 col-sm-12 col-12').addClass('col-lg-8 col-md-8 col-sm-8 col-8');
-      $('.overview_small').removeClass('col-lg-12 col-md-12 col-sm-12 col-12').addClass('col-lg-4 col-md-4 col-sm-4 col-4');
-      $('.benefit_btn,.list_article,.benefit_btn_1').removeClass('col-lg-12 col-md-12 col-sm-12 col-12').addClass('col-lg-6 col-md-6 col-sm-6 col-6');
-    };
-
-
-    
-
-  </script> -->
-  
-  
-    <!--@stack('customscript');-->
   </body>
 
   </html>

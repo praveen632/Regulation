@@ -31,15 +31,15 @@
                 <div class="header-right">
                     <div class="contact-info">
                         <ul>
-                            <li><a href="tel:9625432342"><img src="https://www.whizseeddigital.com/frontend/assets/images1/call-icon.png" alt="Call"> 9625432342</a></li>
+                            <li><a href="tel:9625432342"><img src="{{asset('frontend/assets/images1/call-icon.png')}}" alt="Call"> 000000000</a></li>
                             <li><a href="mailto:info@Regulationwala.com">info@regulationwala.com</a></li>
                         </ul>
                     </div>
 
                     <!-- WhatsApp Icon -->
                     <div class="header-buttons">
-                        <a href="https://api.whatsapp.com/send?phone=919625432342" class="whatsapp-icon">
-                            <img src="https://www.whizseeddigital.com/frontend/assets/images1/whatsapp-wh.png" alt="Whatsapp Now : 9625432342">
+                        <a href="https://api.whatsapp.com/send?phone=00000000" class="whatsapp-icon">
+                            <img src="{{asset('frontend/assets/images1/whatsapp-wh.png')}}" alt="Whatsapp Now : 00000000">
                         </a>
                     </div>
                 </div>

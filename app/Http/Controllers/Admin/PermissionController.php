@@ -71,7 +71,7 @@ class PermissionController extends Controller
         $obj->save();
 
         if ($obj->save() ) {
-            \LogActivity::addToLog('Permission added successfully.');
+            // \LogActivity::addToLog('Permission added successfully.');
             return redirect()->route('permissions.index')->with(['success' => 'Permission added successfully.']);
         }
 
@@ -103,7 +103,7 @@ class PermissionController extends Controller
         $permission->guard_name = 'web';
 
         if ($permission->save() ) {
-            \LogActivity::addToLog('Permission successfully updated.');
+            // \LogActivity::addToLog('Permission successfully updated.');
             return redirect()->route('permissions.index')->with(['success' => 'Permission successfully updated.']);
         }
 
@@ -119,7 +119,7 @@ class PermissionController extends Controller
     public function destroy(Permission $permission)
     {
         if ($permission->delete()) {
-            \LogActivity::addToLog('Permission successfully deleted.');
+            // \LogActivity::addToLog('Permission successfully deleted.');
             return redirect()->back()->with(['success' => 'Permission successfully deleted.']);
         }
 

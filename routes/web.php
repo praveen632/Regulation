@@ -52,7 +52,7 @@ Route::group(['middleware' => ['auth']], function() {
     Route::get('logActivity', [LogActivityController::class, 'logActivity'])->name('logActivity.index');
 
     /* Login History */
-    Route::get('login-history', [LogingHistoryController::class, 'index'])->name('loginhistory.index');
+    // Route::get('login-history', [LogingHistoryController::class, 'index'])->name('loginhistory.index');
     
     Route::get('dashboard', [AdminController::class, 'index'])->name('dashboard');
    

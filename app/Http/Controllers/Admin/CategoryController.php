@@ -68,7 +68,7 @@ class CategoryController extends Controller
     public function index(Request $request)
 
     {
-
+        
         $categories = Category::orderBy('id', 'desc')->get();
 
         return view('admin.categories.index')->with(compact(['categories']));
@@ -131,7 +131,7 @@ class CategoryController extends Controller
             {
                 AddSeoData($category->id, 1);
             }
-            \LogActivity::addToLog('Category added successfully.');
+            // LogActivity::addToLog('Category added successfully.');
             $request->session()->flash('alert-success', "Category added successfully.");
             return redirect()->route('categories.index');
         }
@@ -202,7 +202,7 @@ class CategoryController extends Controller
 
         if ($category->save() ) {
 
-            \LogActivity::addToLog('Category successfully updated.');
+            // \LogActivity::addToLog('Category successfully updated.');
 
             $request->session()->flash('alert-success', "Category successfully updated.");
 
@@ -248,7 +248,7 @@ class CategoryController extends Controller
 
         if ($category->delete()) {
 
-            \LogActivity::addToLog('Category successfully deleted.');
+            // \LogActivity::addToLog('Category successfully deleted.');
 
             $request->session()->flash('alert-success', "Category successfully deleted.");
 
@@ -288,7 +288,7 @@ class CategoryController extends Controller
 
 
 
-        \LogActivity::addToLog('Category Status successfully changed!');
+        // \LogActivity::addToLog('Category Status successfully changed!');
 
         $request->session()->flash('alert-success', "Status successfully changed!");
 

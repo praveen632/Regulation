@@ -55,7 +55,7 @@ class ProfileController extends Controller
         $user->update($input);
      
 
-        \LogActivity::addToLog('User updated successfully');
+        // \LogActivity::addToLog('User updated successfully');
         return back()->with('alert-success', "User Profile Updated Successfully.");
     }
 
